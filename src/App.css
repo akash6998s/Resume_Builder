@@ -1,0 +1,99 @@
+/* Dark Background and Color Scheme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Darker background */
+    color: #ccc; /* Light text color */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+.resume-section {
+    background-color: #2b2b2b; /* Dark section background */
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.section-title {
+    border-bottom: 2px solid #007bff; /* Accent color */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #007bff; /* Accent color */
+}
+.section-content p {
+    color: #ccc; /* Slightly lighter text color */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Typography and Styling Enhancements */
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Deeper shadow */
+    transition: transform 0.3s ease-in-out;
+}
+.profile-img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+.skills-list .badge,
+.languages-list .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.skills-list .badge {
+    background-color: #28a745; /* Green for skills */
+    color: #fff;
+}
+.languages-list .badge {
+    background-color: #007bff; /* Blue for languages */
+    color: #fff;
+}
+.animated-icon {
+    font-size: 24px;
+    color: #007bff;
+    transition: transform 0.3s ease-in-out;
+}
+.animated-icon:hover {
+    transform: scale(1.2); /* Larger scale on hover */
+}
+
+/* Additional Visual Enhancements */
+.projects-list li {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+    color: #ccc; /* Light text color */
+}
+.projects-list li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #007bff; /* Accent color */
+}
+
+.resume-section:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+p{
+    color: #fff;
+}
+
+li{
+    color: #fff;
+}
+
+h3{
+    color: #fff !important;
+}
